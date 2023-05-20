@@ -1,0 +1,11 @@
+@{
+  Layout = "_Layout";
+}
+
+<h1>To Do List Client Details: </h1>
+
+<h2>@Model["client"].Name</h2>
+<h3>Stylist: @Model["stylist"].Name</h3>
+
+<a href='/stylists/@Model["stylist"].Id/clients/new'>Add another Client</a>
+<a href='/stylists'>View all Stylists</a>
