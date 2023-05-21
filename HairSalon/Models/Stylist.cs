@@ -36,6 +36,5 @@ namespace HairSalon.Models
     {
       Clients.Add(client);
     }
-
   }
 }
